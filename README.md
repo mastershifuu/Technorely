@@ -20,8 +20,6 @@ Running tests
 - To run all tests navigate to root directory and execute following command: 
 ```npx codeceptjs run --steps```
 
-
-
 #### 
 
-Bugreports examples are in the file BUGREPORTS.md
+Bugreports examples in the file BUGREPORTS.md

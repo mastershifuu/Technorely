@@ -3,7 +3,7 @@
 #### 
 Installation
 
-- Download and install Chrome browser v 81
+- Download and install Chrome browser v 83
 - Install java
 - Install node
 - Navigate to root directory and execute ```npm install``` command to resolve dependencies

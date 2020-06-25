@@ -1,4 +1,4 @@
-# sbzend
+# technorely
 ### Linux
 #### 
 Installation
@@ -7,6 +7,7 @@ Installation
 - Install java
 - Install node
 - Navigate to root directory and execute ```npm install``` command to resolve dependencies
+- install faker.js module with nmp i faker
 
 #### 
 
@@ -17,4 +18,4 @@ Running tests
 ```selenium-standalone install && selenium-standalone start```
 
 - To run all tests navigate to root directory and execute following command: 
-```node_modules/grunt/bin/grunt ui_tests_unix```
+```npx codeceptjs run --steps```

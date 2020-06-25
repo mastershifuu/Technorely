@@ -1,0 +1,21 @@
+{
+  "name": "Technorely",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "codeceptjs": "^2.6.6",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "authenticator-browser-extension": "^1.4.4",
+    "protractor": "^5.3.0"
+  }
+}

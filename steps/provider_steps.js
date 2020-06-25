@@ -154,4 +154,10 @@ module.exports = {
         if(notRequiredProviderData.easyscriptEmail) I.seeInField(providerPage.easyscriptEmailField, notRequiredProviderData.easyscriptEmail);
     },
 
+    async verifyFieldErrorIsDisplayed(fieldErrors) {
+        for (let errors of fieldErrors) {
+            I.seeElement(providerPage.fieldError(errors));
+        }
+    },
+
 };

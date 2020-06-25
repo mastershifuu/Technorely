@@ -74,6 +74,7 @@ module.exports = {
     languageLabel(language) {return `//div[@class="vs__selected-options"]//span[contains(.,"${language}")]`},
     uploadPhotoInput: '//div[@class="profile-picture"]//input',
     uploadedProviderPhoto(photo) {return `//div[@class="profile-picture"]//img[contains(@src,"${photo}")]`},
+    fieldError(error){return `//span[@class="field-error" and text()="${error}"]`},
 
 
 

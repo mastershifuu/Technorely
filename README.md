@@ -7,7 +7,7 @@ Installation
 - Install java
 - Install node
 - Navigate to root directory and execute ```npm install``` command to resolve dependencies
-- install faker.js module with nmp i faker
+- install faker.js module with ```npm i faker```
 
 #### 
 

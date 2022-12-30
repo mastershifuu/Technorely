@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@wdio/selenium-standalone-service": "^6.1.14",
-    "codeceptjs": "^2.6.6",
+    "codeceptjs": "^3.0.0",
     "faker": "^4.1.0"
   },
   "devDependencies": {
